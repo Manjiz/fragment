@@ -1,3 +1,11 @@
+- 删除 git 的第一个 commit
+
+```bash
+git update-ref -d HEAD
+```
+
+删除命名引用 `HEAD`，但会保留缓存。
+
 - 查看 git 个人代码量
 
 ```bash
